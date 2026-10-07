@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./styles.css";
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://verifyx-backend-s31f.onrender.com";
 
 function App() {
     const [showLogin, setShowLogin] = useState(false);

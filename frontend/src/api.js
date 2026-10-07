@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:8000"
+  baseURL: "https://verifyx-backend-s31f.onrender.com"
 });
 
 export default API;

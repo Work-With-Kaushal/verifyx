@@ -285,9 +285,10 @@ def generate_certificate(
     os.makedirs("qr_codes", exist_ok=True)
 
     qr_data = (
-        f"http://localhost:8000/verify/"
-        f"{certificate_id}"
-    )
+    f"https://verifyx-backend-s31f.onrender.com/verify/"
+    f"{certificate_id}"
+)
+    
 
     img = qrcode.make(qr_data)
 
